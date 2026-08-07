@@ -6,11 +6,14 @@ Varianta de lucru actuală vine din schița de mână cu 7 compartimente — BBQ
 piscină, fitness, hol, relaxare, saună și terasa cu jacuzzi. Analiza schiței,
 suprafețele, problemele găsite și randările fotorealiste sunt în
 [`renders_hf/README_compartimente.md`](renders_hf/README_compartimente.md).
-Planul redesenat la scară: `renders/plan_compartimente.svg` și `.png`,
-generat cu:
+Planul redesenat la scară: `renders/plan_compartimente.svg` și `.png`.
+Modelul 3D: `model/zona_wellness_rev3.obj`, cu randări de masing în
+`renders/3d/`.
 
 ```bash
-python3 tools/plan_compartimente.py
+python3 tools/plan_compartimente.py   # planul, SVG + PNG
+python3 tools/model_rev3.py           # modelul 3D, OBJ + MTL
+python3 tools/render_rev3.py          # cele sase cadre din renders/3d/
 ```
 
 ## Studiul anterior

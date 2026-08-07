@@ -55,6 +55,39 @@ Construit sub acoperiș: **186,0 m²** (bara 114 + aripa 72).
 6. **Sala a rămas fără vedere spre piscină** — cerința inițială. E în colțul de
    sud-est, la 14 m de bazin.
 
+## Model 3D
+
+`model/zona_wellness_rev3.obj` + `.mtl`, 1 unitate = 1 metru, construit de
+`tools/model_rev3.py` care citeste geometria direct din `plan_compartimente`,
+ca planul si modelul sa nu poata pleca unul de la celalalt. Contine pereti
+plini si vitrati, compartimentarile interioare, cabina de sauna, acoperisul in
+consola de 85 cm, bazinul, terasa cu cada de 4,5 m si mobilierul care face
+programul lizibil de sus. Se deschide direct in Blender, SketchUp sau
+Twinmotion.
+
+Inaltimi: 3,20 m la streasina, 2,60 m compartimentarile, 2,20 m cabina de
+sauna, placa de acoperis de 34 cm.
+
+Randari de masing, cu acelasi renderer software fara dependente
+(`python3 tools/render_rev3.py`, in `renders/3d/`):
+
+| Fisier | Cadru |
+|---|---|
+| `01_aerian_sud_vest.png` | aerian trei sferturi dinspre sud-vest |
+| `02_aerian_nord_est.png` | aerian trei sferturi dinspre nord-est |
+| `03_de_sus.png` | vedere de sus, cu acoperisul |
+| `04_dollhouse.png` | sectiune dollhouse, fara acoperis |
+| `05_din_gradina.png` | din gradina, la nivelul ochiului, dinspre sud |
+| `06_terasa_jacuzzi.png` | terasa cu jacuzzi, dinspre nord-vest |
+
+Doua variante fotorealiste pornite din cadrul aerian, ca referinta de camera si
+geometrie:
+
+| Cadru | Link |
+|---|---|
+| Aerian sud-vest, dupa-amiaza | [png](https://d8j0ntlcm91z4.cloudfront.net/user_3GRvTxD20RDAOtHRKgeuej8yQei/hf_20260807_205534_1aba58c5-8fe5-429e-b2ee-aa2c60e60676.png) |
+| Acelasi cadru, la ora albastra | [png](https://d8j0ntlcm91z4.cloudfront.net/user_3GRvTxD20RDAOtHRKgeuej8yQei/hf_20260807_205534_be835842-8df7-42b1-b81b-c39406305f64.png) |
+
 ## Randare
 
 | Cadru | Link |
