@@ -1,6 +1,23 @@
 # Casa Dealu Negru — concept wellness
 
+## Schema curentă: 7 compartimente
+
+Varianta de lucru actuală vine din schița de mână cu 7 compartimente — BBQ,
+piscină, fitness, hol, relaxare, saună și terasa cu jacuzzi. Analiza schiței,
+suprafețele, problemele găsite și randările fotorealiste sunt în
+[`renders_hf/README_compartimente.md`](renders_hf/README_compartimente.md).
+Planul redesenat la scară: `renders/plan_compartimente.svg` și `.png`,
+generat cu:
+
+```bash
+python3 tools/plan_compartimente.py
+```
+
+## Studiul anterior
+
 Randări ale modelului schematic de masing `model/concept_wellness.obj`.
+Schema de mai jos e anterioară celei cu 7 compartimente și nu mai reflectă
+împărțirea curentă.
 
 ## Ce conține modelul
 
