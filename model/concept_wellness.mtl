@@ -1,0 +1,51 @@
+# Materiale - concept wellness (schematic)
+newmtl mat_lemn
+Kd 0.790 0.700 0.540
+Ka 0.316 0.280 0.216
+Ks 0.05 0.05 0.05
+Ns 10
+
+newmtl mat_lemn_garaj
+Kd 0.610 0.440 0.240
+Ka 0.244 0.176 0.096
+Ks 0.05 0.05 0.05
+Ns 10
+
+newmtl mat_piatra
+Kd 0.790 0.720 0.590
+Ka 0.316 0.288 0.236
+Ks 0.05 0.05 0.05
+Ns 10
+
+newmtl mat_context
+Kd 0.720 0.700 0.660
+Ka 0.288 0.280 0.264
+Ks 0.05 0.05 0.05
+Ns 10
+d 0.55
+
+newmtl mat_acoperis
+Kd 0.350 0.350 0.370
+Ka 0.140 0.140 0.148
+Ks 0.05 0.05 0.05
+Ns 10
+
+newmtl mat_sticla
+Kd 0.140 0.250 0.300
+Ka 0.056 0.100 0.120
+Ks 0.05 0.05 0.05
+Ns 10
+d 0.55
+
+newmtl mat_pavaj
+Kd 0.780 0.770 0.730
+Ka 0.312 0.308 0.292
+Ks 0.05 0.05 0.05
+Ns 10
+
+newmtl mat_apa
+Kd 0.250 0.570 0.690
+Ka 0.100 0.228 0.276
+Ks 0.05 0.05 0.05
+Ns 10
+
