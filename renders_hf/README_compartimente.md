@@ -101,6 +101,53 @@ Planul: `renders/plan_compartimente.svg` și `.png`, din
 
 ---
 
+# Demisolul si planul combinat
+
+Schita demisolului nu are nicio cota scrisa. Tot ce urmeaza s-a masurat fata de
+conturul negru al partii de sus, care are cote cunoscute (bara 19 x 6, aripa
+6 x 12) — de aceea cotele demisolului sunt punctate in plan.
+
+| Zona | Dimensiuni | Suprafata |
+|---|---|---|
+| CAM. D — depozitare + garaj | 19,0 × 6,0 | 114,0 m² |
+| CAM. J — joacă: TV, biliard, ping-pong, fotbal de masă | 6,0 × 12,0 | 72,0 m² |
+| rampa auto, pe sub bară | 3,5 × 6,0 | 21,0 m² |
+| scara spre holul de sus | 3,5 × 1,1 | 3,9 m² |
+| clădirea existentă (necotată) | 19,0 × 6,9 | 131,1 m² |
+
+Demisol fără rampă: **186,0 m²** — exact cât parterul.
+
+CAM. J stă fix sub aripă; CAM. D ocupă fâșia dintre bară și clădirea existentă,
+cu latura de sud aliniată cu capătul aripii. Traseul de iarnă merge casă →
+cameră tehnică → CAM. D → scară → capătul de sud al holului de sus, tot pe
+interior.
+
+## Ce iese la verificare
+
+1. **A — rampa trece pe sub bazin.** Bazinul coboară 1,45 m sub parter; cu placa
+   de 30 cm, sub el rămân circa 1,4 m liberi. O mașină cere 2,2 m. Rampa e la
+   x 15,1–18,6, bazinul la 11,5–17,5: se suprapun pe 2,4 m din cei 3,5 ai
+   rampei. Variante: bazinul se mută spre vest (10,5–16,5) și rampa rămâne cu
+   2,5 m — minimul unui loc de parcare; sau rampa iese complet de sub bară și
+   intră în CAM. D prin latura de vest, unde nu e nimic deasupra.
+2. **B — scara e prea scurtă.** 3,5 m de rampă pentru circa 3,1 m diferență de
+   nivel înseamnă 17 trepte de 18,5 cm cu treapta de 22 cm. Pentru 25 cm de
+   treaptă îi trebuie 4,3 m. Loc este: CAM. D are 19 m, scara se poate lungi
+   spre vest.
+3. **Scara ajunge într-un hol de 1 m.** Codul cere un podest cel puțin cât
+   lățimea scării. Holul de sus are exact 1,0 m și sub scară mai rămân 0,8 m
+   până la capătul de sud — practic cobori direct în culoar.
+4. **Deasupra lui CAM. J stau băile, sauna și sala.** Hidroizolație pe toată
+   placa și scurgerile băilor de coborât într-un tavan fals — altfel se aud și
+   se văd în camera de joacă.
+5. **Clădirea existentă e necotată.** Am desenat-o cum e schițată, 19 × 6,9 m,
+   cu aceeași lățime ca bara — de confirmat cu dimensiunile reale.
+
+Planul combinat: `renders/plan_combinat.svg` și `.png`, din
+`tools/plan_combinat.py`.
+
+---
+
 # Revizia 2 — 8 compartimente (istoric)
 
 Ansamblul e în L: o bară est-vest de **15 × 6 m** (BBQ 7 m + piscină 8 m) lipită
