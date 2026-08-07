@@ -5,7 +5,70 @@ albastru închis = vitraj fix, negru = perete plin.
 
 ---
 
-# Revizia 2 — 8 compartimente
+# Revizia 3 — 8 compartimente, aripa subtiata
+
+Bara est-vest de **19 × 6 m** (BBQ 10 m + piscină 9 m) lipită la capătul de est
+de o aripă nord-sud de **6 × 12 m**. 19 + 6 = 25 m, lățimea totală cotată.
+Terasa cu jacuzzi iese spre nord pe toată lățimea aripii.
+
+| # | Compartiment | Dimensiuni | Suprafață |
+|---|---|---|---|
+| 1 | BBQ + bucătărie + masă | 10,0 × 6,0 | 60,0 m² |
+| 2 | piscină | 9,0 × 6,0 | 54,0 m² |
+| 3 | sala, în L în jurul saunei | 5,0 × 5,0 − sauna | 20,0 m² |
+| 4 | hol | 1,0 × 12,0 | 12,0 m² |
+| 5 | relaxare | 5,0 × 7,0 − baia | 28,2 m² |
+| 6 | saună | 2,5 × 2,0 | 5,0 m² |
+| 8 | băi: 2 dușuri, 2 WC, 2 chiuvete | 2,0 × 3,4 | 6,8 m² |
+| 7 | terasă jacuzzi (exterior) | 6,0 × 3,0 | 18,0 m² |
+
+Construit sub acoperiș: **186,0 m²** (bara 114 + aripa 72).
+
+## Ce s-a schimbat față de revizia 2
+
+- Bara crește de la 15 la 19 m: BBQ 7 → 10, piscină 8 → 9.
+- Aripa se subțiază de la 10 la **6 m** lățime, deci totalul rămâne 25 m.
+- Sauna devine o **cabină de 2,5 × 2 m** în colțul de sud-vest al zonei de jos,
+  iar sala o înconjoară în L.
+- **Sala capătă ușă din hol** — problema principală a reviziei 2, fitness-ul
+  fără acces, e rezolvată.
+- Jacuzzi-ul are **Ø 4,5 m**, scris cu galben pe schiță.
+
+## Ce iese la verificare
+
+1. **Cada de 4,5 m nu încape pe terasa de 3 m.** Îi trebuie minimum 5 m
+   adâncime, plus o margine de circulație. Planul arată punctat subțire
+   conturul de care ar fi nevoie. Alternativa e o cadă de Ø 2,4–2,8 m, care
+   ține tot 6–8 persoane.
+2. **Sala are 20 m² în formă de L** în jurul cabinei de saună. Banda de alergat
+   intră pe brațul lung de lângă hol; restul aparatelor merg pe latura vitrată.
+   Funcționează, dar e strâmt pentru cinci echipamente.
+3. **Sauna de 2,5 × 2 = 5 m²** ține confortabil 4 persoane pe bănci în L, nu 5–6
+   cum era cerința inițială. Pentru 6 ar trebui 2,5 × 2,5.
+4. **Sauna dă direct în sală.** Ușa ei e pe hol, dar cabina e înconjurată de
+   zona de fitness, deci aburul și temperatura ajung lângă aparate. Un mic
+   antreu ar izola-o.
+5. Rămân valabile: **holul de 1 m** pe 12 m cu cinci uși, **fâșia de 1 m din
+   baie** care ține și chiuvetele și circulația, umiditatea piscinei peste
+   bucătăria deschisă, lipsa deschiderilor operabile la 3 și 5, și lipsa
+   luminii naturale pe hol.
+6. **Sala a rămas fără vedere spre piscină** — cerința inițială. E în colțul de
+   sud-est, la 14 m de bazin.
+
+## Randare
+
+| Cadru | Link |
+|---|---|
+| Secțiune dollhouse strict de sus, toate cele 8 compartimente | [png](https://d8j0ntlcm91z4.cloudfront.net/user_3GRvTxD20RDAOtHRKgeuej8yQei/hf_20260807_202045_3096f165-98d7-48fc-b521-d48893409e03.png) |
+
+Terasa e randată la 5 m adâncime, ca să încapă cada de 4,5 m.
+
+Planul: `renders/plan_compartimente.svg` și `.png`, din
+`tools/plan_compartimente.py`.
+
+---
+
+# Revizia 2 — 8 compartimente (istoric)
 
 Ansamblul e în L: o bară est-vest de **15 × 6 m** (BBQ 7 m + piscină 8 m) lipită
 la capătul de est de o aripă nord-sud de **10 × 12 m**. Terasa cu jacuzzi
@@ -70,8 +133,7 @@ planul rev. 2 ca referință de geometrie. Model `nano_banana_pro` (servit ca
 |---|---|
 | Secțiune dollhouse strict de sus, toate cele 8 compartimente | [png](https://d8j0ntlcm91z4.cloudfront.net/user_3GRvTxD20RDAOtHRKgeuej8yQei/hf_20260807_200419_4c1ad4d8-4f64-4a08-a23a-fbe20eb80fc9.png) |
 
-Planul: `renders/plan_compartimente.svg` și `.png`, din
-`tools/plan_compartimente.py`.
+Planul rev. 2 nu mai e generat; scriptul produce acum rev. 3.
 
 ---
 
