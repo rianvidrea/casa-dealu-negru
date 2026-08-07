@@ -28,3 +28,22 @@ vitraj în curte și mai departe în SPA, iar cadrul 6 e drumul invers. Cadrele 
 Imaginile nu sunt versionate în repo — hostul CDN al Higgsfield nu e accesibil
 din sesiunea asta, deci nu au putut fi descărcate local. Link-urile de mai sus
 sunt sursa.
+
+## Varianta L (piscina mutata in interior)
+
+Editari pornind exclusiv din cadrul 2 (vederea de sus). Corpul din stanga a
+fost alipit de corpul de sus, formand un singur volum in L; piscina a iesit din
+curte si a intrat sub acoperis, in bratul lung; in coltul interior al L-ului,
+o terasa patrata cu jacuzzi patrat incastrat.
+
+Program distribuit in L: piscina acoperita si sauna in bratul lung orizontal,
+bucatarie de vara cu BBQ la colt, sala de fitness si camera de proiectie pentru
+filme si meciuri in bratul vertical din stanga.
+
+| # | Cadru | Link |
+|---|---|---|
+| 11 | Sectiune de sus, cu programul vizibil | [png](https://d8j0ntlcm91z4.cloudfront.net/user_3GRvTxD20RDAOtHRKgeuej8yQei/hf_20260807_113209_c1bf57ba-33fc-4d71-864f-340f9ac06167.png) |
+| 12 | Vedere de sus, cu acoperisurile puse | [png](https://d8j0ntlcm91z4.cloudfront.net/user_3GRvTxD20RDAOtHRKgeuej8yQei/hf_20260807_113209_67a4759f-7439-4e3c-9d5b-857dcfebe623.png) |
+
+Varianta exista deocamdata doar ca imagine: modelul OBJ din `model/` are in
+continuare schema initiala, cu cele trei corpuri separate si piscina in curte.
