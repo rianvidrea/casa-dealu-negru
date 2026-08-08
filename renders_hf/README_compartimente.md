@@ -103,45 +103,50 @@ Planul: `renders/plan_compartimente.svg` și `.png`, din
 
 # Demisolul si planul combinat
 
-Schita demisolului nu are nicio cota scrisa. Tot ce urmeaza s-a masurat fata de
-conturul negru al partii de sus, care are cote cunoscute (bara 19 x 6, aripa
-6 x 12) — de aceea cotele demisolului sunt punctate in plan.
+Cotate de tine: **latura de 13 m** a camerei de depozitare si a cladirii
+existente, cei **4 m** dintre usa camerei tehnice si hol, si diferenta de nivel
+de **2,15 m**. Restul cotelor sunt scoase masurand schita fata de conturul
+partii de sus si sunt punctate in plan.
+
+CAM. D si casa sunt aliniate la est, pe x = 19 — acolo cade scara si acolo e
+usa camerei tehnice.
 
 | Zona | Dimensiuni | Suprafata |
 |---|---|---|
-| CAM. D — depozitare + garaj | 19,0 × 6,0 | 114,0 m² |
+| CAM. D — depozitare | 13,0 × 6,0 | 78,0 m² |
 | CAM. J — joacă: TV, biliard, ping-pong, fotbal de masă | 6,0 × 12,0 | 72,0 m² |
-| rampa auto, pe sub bară | 3,5 × 6,0 | 21,0 m² |
-| scara spre holul de sus | 3,5 × 1,1 | 3,9 m² |
-| clădirea existentă (necotată) | 19,0 × 6,9 | 131,1 m² |
+| acces cu ușă de garaj la nord | 3,5 × 6,0 | 21,0 m² |
+| scara | 4,0 × 1,1 | 4,4 m² |
+| clădirea existentă (adâncime estimată) | 13,0 × 6,9 | 89,7 m² |
 
-Demisol fără rampă: **186,0 m²** — exact cât parterul.
+Demisol, fără zona de acces: **150,0 m²**. Parter: 186,0 m².
 
-CAM. J stă fix sub aripă; CAM. D ocupă fâșia dintre bară și clădirea existentă,
-cu latura de sud aliniată cu capătul aripii. Traseul de iarnă merge casă →
-cameră tehnică → CAM. D → scară → capătul de sud al holului de sus, tot pe
-interior.
+Zona roz nu e rampă de mașină: mașina nu intră, doar se descarcă la ușa de
+garaj de pe latura de nord. Traseul de iarnă merge casă → cameră tehnică →
+CAM. D → scară → capătul de sud al holului de sus, tot pe interior.
 
 ## Ce iese la verificare
 
-1. **A — rampa trece pe sub bazin.** Bazinul coboară 1,45 m sub parter; cu placa
-   de 30 cm, sub el rămân circa 1,4 m liberi. O mașină cere 2,2 m. Rampa e la
-   x 15,1–18,6, bazinul la 11,5–17,5: se suprapun pe 2,4 m din cei 3,5 ai
-   rampei. Variante: bazinul se mută spre vest (10,5–16,5) și rampa rămâne cu
-   2,5 m — minimul unui loc de parcare; sau rampa iese complet de sub bară și
-   intră în CAM. D prin latura de vest, unde nu e nimic deasupra.
-2. **B — scara e prea scurtă.** 3,5 m de rampă pentru circa 3,1 m diferență de
-   nivel înseamnă 17 trepte de 18,5 cm cu treapta de 22 cm. Pentru 25 cm de
-   treaptă îi trebuie 4,3 m. Loc este: CAM. D are 19 m, scara se poate lungi
-   spre vest.
-3. **Scara ajunge într-un hol de 1 m.** Codul cere un podest cel puțin cât
-   lățimea scării. Holul de sus are exact 1,0 m și sub scară mai rămân 0,8 m
-   până la capătul de sud — practic cobori direct în culoar.
-4. **Deasupra lui CAM. J stau băile, sauna și sala.** Hidroizolație pe toată
-   placa și scurgerile băilor de coborât într-un tavan fals — altfel se aud și
-   se văd în camera de joacă.
-5. **Clădirea existentă e necotată.** Am desenat-o cum e schițată, 19 × 6,9 m,
-   cu aceeași lățime ca bara — de confirmat cu dimensiunile reale.
+1. **A — gabaritul demisolului.** 2,15 m diferență de nivel minus 30 cm de
+   placă lasă **1,85 m liberi**. O cameră de joacă cu biliard și ping-pong cere
+   2,40 m. Soluția: se sapă cu încă 60 cm. Diferența devine 2,75 m, iar scara
+   ajunge la 16 trepte de 17,2 cm cu treapta de 26,5 — adică 3,98 m de rampă,
+   care încap fix în cei 4 m măsurați. Deasupra lui CAM. D e doar terasa, iar
+   deasupra lui CAM. J doar aripa, deci coborârea nu schimbă nimic la parter:
+   e numai săpătură.
+2. **B — zona de acces se suprapune 2,4 m peste bazin.** Accesul e la
+   x 15,1–18,6, bazinul la 11,5–17,5. Sub bazin rămân circa 40 cm. Bazinul se
+   mută spre vest (10,3–16,3, și accesul rămâne cu 2,7 m curați) sau accesul se
+   mută spre est.
+3. **Ușa de garaj e pe fațada de nord, la cota demisolului.** Terenul urcă spre
+   nord, deci acolo cota naturală e la nivelul parterului — ușa ar fi îngropată
+   2 m. Ori se face un decupaj în teren în fața ei, ori ușa e de fapt la cota
+   parterului. De lămurit.
+4. **Scara ajunge într-un hol de 1 m.** Ar trebui un podest cel puțin cât
+   lățimea scării; holul are exact 1,0 m.
+5. **Deasupra lui CAM. J stau băile, sauna și sala.** Hidroizolație pe toată
+   placa și scurgerile băilor coborâte într-un tavan fals.
+6. **Adâncimea clădirii existente (6,9 m) e estimată** din desen, nu cotată.
 
 Planul combinat: `renders/plan_combinat.svg` și `.png`, din
 `tools/plan_combinat.py`.

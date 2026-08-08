@@ -23,14 +23,14 @@ import plan_compartimente as P
 # geometria demisolului, in metri, in acelasi sistem ca parterul
 # --------------------------------------------------------------------------
 
-CAMD = (0.0, 6.0, 19.0, 12.0)        # camera de depozitare, sub terasa
+CAMD = (6.0, 6.0, 19.0, 12.0)        # camera de depozitare: latura de 13 m
 CAMJ = (19.0, 0.0, 25.0, 12.0)       # camera de joaca, sub aripa
 ACCES = (15.1, 0.0, 18.6, 6.0)       # acces de serviciu, cu usa de garaj la nord
 SCARA = (15.5, 10.8, 19.5, 11.9)     # scara: 4 m masurati de la usa tehnica
 DIF_NIVEL = 2.15                     # diferenta de nivel masurata, "2 m si un pic"
 GROS_PLACA = 0.30                    # placa parterului peste demisol
 USA_TEHNICA = (15.0, 12.0, 16.0, 12.0)
-CASA = (0.0, 12.0, 19.0, 18.9)       # cladirea existenta, necotata
+CASA = (6.0, 12.0, 19.0, 18.9)       # cladirea existenta: latura de 13 m
 
 # --------------------------------------------------------------------------
 # pagina; se suprascriu variabilele de modul din plan_compartimente, ca sa
@@ -39,9 +39,9 @@ CASA = (0.0, 12.0, 19.0, 18.9)       # cladirea existenta, necotata
 
 P.SCARA = 44.0
 P.MARGINE = 115.0
-P.LEGENDA_H = 510.0
+P.LEGENDA_H = 570.0
 P.X_MIN, P.X_MAX = -1.6, 26.6
-P.Y_MIN, P.Y_MAX = -6.2, 20.2
+P.Y_MIN, P.Y_MAX = -6.2, 21.0
 P.W = max((P.X_MAX - P.X_MIN) * P.SCARA + 2 * P.MARGINE, 1990.0)
 P.H = (P.Y_MAX - P.Y_MIN) * P.SCARA + 2 * P.MARGINE + P.LEGENDA_H
 
@@ -231,16 +231,18 @@ def sectiune_gabarit():
 
 
 TABEL = [
-    ("CAM. D  depozitare", "19,0 x 6,0", "114,0"),
+    ("CAM. D  depozitare", "13,0 x 6,0", "78,0"),
     ("CAM. J  joaca: TV, biliard, ping-pong", "6,0 x 12,0", "72,0"),
     ("acces cu usa de garaj la nord", "3,5 x 6,0", "21,0"),
     ("scara, 4 m masurati", "4,0 x 1,1", "4,4"),
-    ("cladirea existenta (necotata)", "19,0 x 6,9", "131,1"),
+    ("cladirea existenta", "13,0 x 6,9", "89,7"),
 ]
 
 NOTE = [
-    ("Cotele in plan s-au masurat fata de conturul partii de sus.", "#33383f"),
-    ("Diferenta de nivel si cei 4 m ai scarii sunt masurati de tine.", "#33383f"),
+    ("Masurate de tine: latura de 13 m, cei 4 m ai scarii si diferenta", "#33383f"),
+    ("de nivel. Restul cotelor sunt scoase din desen — punctate.", "#33383f"),
+    ("CAM. D si casa sunt aliniate la est, pe x = 19, acolo unde", "#33383f"),
+    ("   cade scara si unde e usa camerei tehnice.", "#33383f"),
     ("A  Gabaritul demisolului. 2,15 m diferenta de nivel minus 30 cm", C_NOTA),
     ("   de placa lasa 1,85 m liberi. O camera de joaca cere 2,40 m.", C_NOTA),
     ("   Solutia: se sapa cu inca 60 cm; scara ajunge la 16 trepte,", C_NOTA),
@@ -287,7 +289,7 @@ def legenda(y0):
                'stroke-width="1.6"/>' % (x2, yy - 21, x2 + 590, yy - 21))
     out.append(text_px(x2, yy, "demisol, fara zona de acces", size=21,
                        weight="700"))
-    out.append(text_px(x2 + 590, yy, "186,0 m2", size=21, weight="700",
+    out.append(text_px(x2 + 590, yy, "150,0 m2", size=21, weight="700",
                        anchor="end"))
     out.append(text_px(x2, yy + 30, "parter, sub acoperis", size=21,
                        weight="700"))
@@ -302,13 +304,14 @@ def legenda(y0):
 
 
 COTE = [
-    (CAMD[0], CAMD[3], CAMD[2], CAMD[3], "19 m", False, 1.3),
-    (CAMD[0], CAMD[1], CAMD[0], CAMD[3], "6 m", False, -1.3),
+    (CAMD[0], CAMD[3], CAMD[2], CAMD[3], "13 m", True, 1.3),
+    (CAMD[0], CAMD[1], CAMD[0], CAMD[3], "6 m", False, -1.4),
     (CAMJ[0], CAMJ[3], CAMJ[2], CAMJ[3], "6 m", False, 1.3),
     (CAMJ[2], CAMJ[1], CAMJ[2], CAMJ[3], "12 m", False, 1.4),
     (ACCES[0], 0.0, ACCES[2], 0.0, "3,5 m", False, -1.9),
     (SCARA[0], SCARA[1], SCARA[2], SCARA[1], "4 m", True, -1.2),
-    (CASA[0], CASA[1], CASA[0], CASA[3], "6,9 m", False, -1.3),
+    (CASA[0], CASA[3], CASA[2], CASA[3], "13 m", True, 1.3),
+    (CASA[0], CASA[1], CASA[0], CASA[3], "6,9 m", False, -1.4),
 ]
 
 
@@ -336,18 +339,18 @@ def construieste_svg():
     o.extend(sectiune_gabarit())
     o.extend(note_clash())
 
-    o.append(text(9.5, 8.6, "CAM. D", size=44, weight="700", fill="#1d2126",
+    o.append(text(11.5, 8.6, "CAM. D", size=44, weight="700", fill="#1d2126",
                   style="opacity:0.20"))
-    o.append(text(9.5, 9.35, "depozitare", size=22, weight="600",
+    o.append(text(11.5, 9.35, "depozitare", size=22, weight="600",
                   fill="#3b4149"))
     o.append(text(22.6, 3.2, "CAM. J", size=40, weight="700", fill="#1d2126",
                   style="opacity:0.22"))
     o.append(text(22.6, 3.9, "joaca", size=21, weight="600", fill="#3b4149"))
-    o.append(text(9.5, 15.6, "CLADIREA EXISTENTA", size=26, weight="700",
+    o.append(text(12.5, 15.6, "CLADIREA EXISTENTA", size=26, weight="700",
                   fill="#8a5638"))
-    o.append(text(11.4, 12.75, "usa camerei tehnice", size=19, weight="600",
+    o.append(text(9.4, 14.0, "usa camerei tehnice", size=19, weight="600",
                   fill=C_USA))
-    o.append(line(13.9, 12.62, 15.4, 12.1, stroke=C_USA, stroke_width="1.6"))
+    o.append(line(11.9, 13.85, 15.3, 12.15, stroke=C_USA, stroke_width="1.6"))
 
     for c in COTE:
         o.extend(cota(*c))
