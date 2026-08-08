@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1990" height="1862" viewBox="0 0 1990 1862">
+<svg xmlns="http://www.w3.org/2000/svg" width="1990" height="1902" viewBox="0 0 1990 1902">
 <defs><marker id="sg" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3fb8"/></marker></defs>
-<rect width="1990" height="1862" fill="#ffffff"/>
+<rect width="1990" height="1902" fill="#ffffff"/>
 <g stroke="#eceef1" stroke-width="1">
 <line x1="141.4" y1="115.0" x2="141.4" y2="1276.6" />
 <line x1="185.4" y1="115.0" x2="185.4" y2="1276.6" />
@@ -90,42 +90,40 @@
 <line x1="1003.8" y1="651.8" x2="1021.4" y2="651.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
 <line x1="185.4" y1="651.8" x2="185.4" y2="915.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
 <line x1="185.4" y1="915.8" x2="1021.4" y2="915.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
-<line x1="1021.4" y1="651.8" x2="1021.4" y2="832.2" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
-<line x1="1021.4" y1="880.6" x2="1021.4" y2="915.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
+<line x1="1021.4" y1="651.8" x2="1021.4" y2="863.0" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
+<line x1="1021.4" y1="911.4" x2="1021.4" y2="915.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
 <line x1="1021.4" y1="387.8" x2="1285.4" y2="387.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
 <line x1="1285.4" y1="387.8" x2="1285.4" y2="915.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
 <line x1="1021.4" y1="915.8" x2="1285.4" y2="915.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
 <line x1="1021.4" y1="387.8" x2="1021.4" y2="651.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
-<rect x="849.8" y="387.8" width="154.0" height="264.0" fill="none" stroke="#e8779f" stroke-width="6"/>
-<line x1="926.8" y1="409.8" x2="926.8" y2="629.8" stroke="#e8779f" stroke-width="2.4" stroke-dasharray="12 8"/>
-<path d="M 926.8 629.8 l -9 -16 l 9 6 l 9 -6 z" fill="#e8779f"/>
-<line x1="865.2" y1="412.0" x2="988.4" y2="412.0" stroke="#e8779f" stroke-width="1.6" opacity="0.6"/>
-<line x1="865.2" y1="453.8" x2="988.4" y2="453.8" stroke="#e8779f" stroke-width="1.6" opacity="0.6"/>
-<line x1="865.2" y1="495.6" x2="988.4" y2="495.6" stroke="#e8779f" stroke-width="1.6" opacity="0.6"/>
-<line x1="865.2" y1="537.4" x2="988.4" y2="537.4" stroke="#e8779f" stroke-width="1.6" opacity="0.6"/>
-<line x1="865.2" y1="579.2" x2="988.4" y2="579.2" stroke="#e8779f" stroke-width="1.6" opacity="0.6"/>
-<line x1="865.2" y1="621.0" x2="988.4" y2="621.0" stroke="#e8779f" stroke-width="1.6" opacity="0.6"/>
-<rect x="911.4" y="832.2" width="154.0" height="48.4" fill="#e8f6fc" stroke="#3fa9d4" stroke-width="5"/>
-<line x1="921.7" y1="832.2" x2="921.7" y2="880.6" stroke="#3fa9d4" stroke-width="1.8"/>
-<line x1="931.9" y1="832.2" x2="931.9" y2="880.6" stroke="#3fa9d4" stroke-width="1.8"/>
-<line x1="942.2" y1="832.2" x2="942.2" y2="880.6" stroke="#3fa9d4" stroke-width="1.8"/>
-<line x1="952.5" y1="832.2" x2="952.5" y2="880.6" stroke="#3fa9d4" stroke-width="1.8"/>
-<line x1="962.7" y1="832.2" x2="962.7" y2="880.6" stroke="#3fa9d4" stroke-width="1.8"/>
-<line x1="973.0" y1="832.2" x2="973.0" y2="880.6" stroke="#3fa9d4" stroke-width="1.8"/>
-<line x1="983.3" y1="832.2" x2="983.3" y2="880.6" stroke="#3fa9d4" stroke-width="1.8"/>
-<line x1="993.5" y1="832.2" x2="993.5" y2="880.6" stroke="#3fa9d4" stroke-width="1.8"/>
-<line x1="1003.8" y1="832.2" x2="1003.8" y2="880.6" stroke="#3fa9d4" stroke-width="1.8"/>
-<line x1="1014.1" y1="832.2" x2="1014.1" y2="880.6" stroke="#3fa9d4" stroke-width="1.8"/>
-<line x1="1024.3" y1="832.2" x2="1024.3" y2="880.6" stroke="#3fa9d4" stroke-width="1.8"/>
-<line x1="1034.6" y1="832.2" x2="1034.6" y2="880.6" stroke="#3fa9d4" stroke-width="1.8"/>
-<line x1="1044.9" y1="832.2" x2="1044.9" y2="880.6" stroke="#3fa9d4" stroke-width="1.8"/>
-<line x1="1055.1" y1="832.2" x2="1055.1" y2="880.6" stroke="#3fa9d4" stroke-width="1.8"/>
-<path d="M 1050.0 856.4 l -15 -9 l 6 9 l -6 9 z" fill="#3fa9d4"/>
+<rect x="849.8" y="387.8" width="154.0" height="264.0" fill="none" stroke="#e8779f" stroke-width="5" stroke-dasharray="12 7"/>
+<line x1="849.8" y1="387.8" x2="1003.8" y2="387.8" stroke="#ffffff" stroke-width="13"/>
+<line x1="849.8" y1="387.8" x2="1003.8" y2="387.8" stroke="#e8779f" stroke-width="9"/>
+<line x1="859.5" y1="380.8" x2="859.5" y2="394.8" stroke="#ffffff" stroke-width="2.2"/>
+<line x1="881.9" y1="380.8" x2="881.9" y2="394.8" stroke="#ffffff" stroke-width="2.2"/>
+<line x1="904.4" y1="380.8" x2="904.4" y2="394.8" stroke="#ffffff" stroke-width="2.2"/>
+<line x1="926.8" y1="380.8" x2="926.8" y2="394.8" stroke="#ffffff" stroke-width="2.2"/>
+<line x1="949.2" y1="380.8" x2="949.2" y2="394.8" stroke="#ffffff" stroke-width="2.2"/>
+<line x1="971.7" y1="380.8" x2="971.7" y2="394.8" stroke="#ffffff" stroke-width="2.2"/>
+<line x1="994.1" y1="380.8" x2="994.1" y2="394.8" stroke="#ffffff" stroke-width="2.2"/>
+<text x="926.8" y="369.3" font-family="Helvetica,Arial,sans-serif" font-size="19" font-weight="600" fill="#e8779f" text-anchor="middle" style="">usa de garaj</text>
+<rect x="867.4" y="863.0" width="176.0" height="48.4" fill="#e8f6fc" stroke="#3fa9d4" stroke-width="5"/>
+<line x1="882.1" y1="863.0" x2="882.1" y2="911.4" stroke="#3fa9d4" stroke-width="1.8"/>
+<line x1="896.7" y1="863.0" x2="896.7" y2="911.4" stroke="#3fa9d4" stroke-width="1.8"/>
+<line x1="911.4" y1="863.0" x2="911.4" y2="911.4" stroke="#3fa9d4" stroke-width="1.8"/>
+<line x1="926.1" y1="863.0" x2="926.1" y2="911.4" stroke="#3fa9d4" stroke-width="1.8"/>
+<line x1="940.7" y1="863.0" x2="940.7" y2="911.4" stroke="#3fa9d4" stroke-width="1.8"/>
+<line x1="955.4" y1="863.0" x2="955.4" y2="911.4" stroke="#3fa9d4" stroke-width="1.8"/>
+<line x1="970.1" y1="863.0" x2="970.1" y2="911.4" stroke="#3fa9d4" stroke-width="1.8"/>
+<line x1="984.7" y1="863.0" x2="984.7" y2="911.4" stroke="#3fa9d4" stroke-width="1.8"/>
+<line x1="999.4" y1="863.0" x2="999.4" y2="911.4" stroke="#3fa9d4" stroke-width="1.8"/>
+<line x1="1014.1" y1="863.0" x2="1014.1" y2="911.4" stroke="#3fa9d4" stroke-width="1.8"/>
+<line x1="1028.7" y1="863.0" x2="1028.7" y2="911.4" stroke="#3fa9d4" stroke-width="1.8"/>
+<path d="M 1028.0 887.2 l -15 -9 l 6 9 l -6 9 z" fill="#3fa9d4"/>
 <line x1="845.4" y1="915.8" x2="889.4" y2="915.8" stroke="#ffffff" stroke-width="12"/>
 <line x1="845.4" y1="915.8" x2="889.4" y2="915.8" stroke="#c1121f" stroke-width="8"/>
-<line x1="867.4" y1="915.8" x2="867.4" y2="856.4" stroke="#1f7a4d" stroke-width="3.0" stroke-dasharray="11 8" fill="none"/>
-<line x1="867.4" y1="856.4" x2="911.4" y2="856.4" stroke="#1f7a4d" stroke-width="3.0" stroke-dasharray="11 8" fill="none"/>
-<text x="783.8" y="843.2" font-family="Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#1f7a4d" text-anchor="middle" style="">traseu de iarna</text>
+<line x1="867.4" y1="915.8" x2="867.4" y2="887.2" stroke="#1f7a4d" stroke-width="3.0" stroke-dasharray="11 8" fill="none"/>
+<text x="753.0" y="878.4" font-family="Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#1f7a4d" text-anchor="middle" style="">traseu de iarna</text>
 <g fill="none">
 <rect x="1021.4" y="255.8" width="264.0" height="132.0" fill="none" stroke="#a8adb5" stroke-width="1.6" stroke-dasharray="7 6"/>
 <circle cx="1153.4" cy="277.8" r="99.0" fill="none" stroke="#a8adb5" stroke-width="1.6" stroke-dasharray="7 6"/>
@@ -164,16 +162,42 @@
 <text x="1109.4" y="614.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#6f757d" text-anchor="middle" style="">8</text>
 <circle cx="1153.4" cy="211.8" r="20.2" fill="#ffffff" stroke="#a8adb5" stroke-width="1.8"/>
 <text x="1153.4" y="218.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#6f757d" text-anchor="middle" style="">7</text>
-<circle cx="924.6" cy="519.8" r="22.0" fill="#d1600f" stroke="#ffffff" stroke-width="2"/>
-<text x="924.6" y="527.8" font-family="Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" style="">A</text>
-<circle cx="986.2" cy="856.4" r="22.0" fill="#d1600f" stroke="#ffffff" stroke-width="2"/>
-<text x="986.2" y="864.4" font-family="Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" style="">B</text>
+<text x="1122.6" y="1011.7" font-family="Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#1d2126" text-anchor="start" style="">Sectiune prin demisol</text>
+<rect x="1091.8" y="1047.8" width="233.2" height="14.8" fill="#dfe2e6" stroke="#8a8f98" stroke-width="2.0"/>
+<line x1="1095.5" y1="1047.8" x2="1110.3" y2="1062.6" stroke="#9aa0a8" stroke-width="1.2" opacity="0.75"/>
+<line x1="1114.0" y1="1047.8" x2="1128.8" y2="1062.6" stroke="#9aa0a8" stroke-width="1.2" opacity="0.75"/>
+<line x1="1132.5" y1="1047.8" x2="1147.2" y2="1062.6" stroke="#9aa0a8" stroke-width="1.2" opacity="0.75"/>
+<line x1="1150.9" y1="1047.8" x2="1165.7" y2="1062.6" stroke="#9aa0a8" stroke-width="1.2" opacity="0.75"/>
+<line x1="1169.4" y1="1047.8" x2="1184.2" y2="1062.6" stroke="#9aa0a8" stroke-width="1.2" opacity="0.75"/>
+<line x1="1187.9" y1="1047.8" x2="1202.7" y2="1062.6" stroke="#9aa0a8" stroke-width="1.2" opacity="0.75"/>
+<line x1="1206.4" y1="1047.8" x2="1221.2" y2="1062.6" stroke="#9aa0a8" stroke-width="1.2" opacity="0.75"/>
+<line x1="1224.9" y1="1047.8" x2="1239.6" y2="1062.6" stroke="#9aa0a8" stroke-width="1.2" opacity="0.75"/>
+<line x1="1243.3" y1="1047.8" x2="1258.1" y2="1062.6" stroke="#9aa0a8" stroke-width="1.2" opacity="0.75"/>
+<line x1="1261.8" y1="1047.8" x2="1276.6" y2="1062.6" stroke="#9aa0a8" stroke-width="1.2" opacity="0.75"/>
+<line x1="1280.3" y1="1047.8" x2="1295.1" y2="1062.6" stroke="#9aa0a8" stroke-width="1.2" opacity="0.75"/>
+<line x1="1298.8" y1="1047.8" x2="1313.6" y2="1062.6" stroke="#9aa0a8" stroke-width="1.2" opacity="0.75"/>
+<line x1="1317.3" y1="1047.8" x2="1325.0" y2="1055.5" stroke="#9aa0a8" stroke-width="1.2" opacity="0.75"/>
+<text x="1096.2" y="1040.8" font-family="Helvetica,Arial,sans-serif" font-size="17" font-weight="400" fill="#6b7076" text-anchor="start" style="">parter ±0,00</text>
+<rect x="1091.8" y="1153.8" width="233.2" height="12.3" fill="#dfe2e6" stroke="#8a8f98" stroke-width="2.0"/>
+<rect x="1091.8" y="1183.3" width="233.2" height="12.3" fill="#f7efe3" stroke="#d1600f" stroke-width="2.0" stroke-dasharray="9 6"/>
+<text x="1320.6" y="1214.1" font-family="Helvetica,Arial,sans-serif" font-size="17" font-weight="400" fill="#d1600f" text-anchor="end" style="">propus, sapat cu inca 60 cm</text>
+<line x1="1091.8" y1="1062.6" x2="1091.8" y2="1153.8" stroke="#8a8f98" stroke-width="2.0"/>
+<line x1="1325.0" y1="1062.6" x2="1325.0" y2="1153.8" stroke="#8a8f98" stroke-width="2.0"/>
+<line x1="1072.0" y1="1047.8" x2="1072.0" y2="1153.8" stroke="#7a3fb8" stroke-width="2.0" marker-start="url(#sg)" marker-end="url(#sg)"/>
+<text x="1072.0" y="1106.8" font-family="Helvetica,Arial,sans-serif" font-size="19" font-weight="600" fill="#7a3fb8" text-anchor="middle" style="writing-mode:tb;glyph-orientation-vertical:0">2,15 m</text>
+<line x1="1157.8" y1="1062.6" x2="1157.8" y2="1153.8" stroke="#d1600f" stroke-width="2.0" marker-start="url(#sg)" marker-end="url(#sg)"/>
+<text x="1157.8" y="1114.2" font-family="Helvetica,Arial,sans-serif" font-size="19" font-weight="600" fill="#d1600f" text-anchor="middle" style="writing-mode:tb;glyph-orientation-vertical:0">1,85 m</text>
+<line x1="1267.8" y1="1062.6" x2="1267.8" y2="1183.3" stroke="#d1600f" stroke-width="2.0" marker-start="url(#sg)" marker-end="url(#sg)" stroke-dasharray="8 5"/>
+<text x="1267.8" y="1129.0" font-family="Helvetica,Arial,sans-serif" font-size="19" font-weight="600" fill="#d1600f" text-anchor="middle" style="writing-mode:tb;glyph-orientation-vertical:0">2,40 m</text>
+<circle cx="1100.6" cy="1008.2" r="22.0" fill="#d1600f" stroke="#ffffff" stroke-width="2"/>
+<text x="1100.6" y="1016.2" font-family="Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" style="">A</text>
+<circle cx="915.8" cy="493.4" r="22.0" fill="#d1600f" stroke="#ffffff" stroke-width="2"/>
+<text x="915.8" y="501.4" font-family="Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" style="">B</text>
 <text x="603.4" y="766.2" font-family="Helvetica,Arial,sans-serif" font-size="44" font-weight="700" fill="#1d2126" text-anchor="middle" style="opacity:0.20">CAM. D</text>
-<text x="603.4" y="799.2" font-family="Helvetica,Arial,sans-serif" font-size="22" font-weight="600" fill="#3b4149" text-anchor="middle" style="">depozitare + garaj</text>
+<text x="603.4" y="799.2" font-family="Helvetica,Arial,sans-serif" font-size="22" font-weight="600" fill="#3b4149" text-anchor="middle" style="">depozitare</text>
 <text x="1179.8" y="528.6" font-family="Helvetica,Arial,sans-serif" font-size="40" font-weight="700" fill="#1d2126" text-anchor="middle" style="opacity:0.22">CAM. J</text>
 <text x="1179.8" y="559.4" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="600" fill="#3b4149" text-anchor="middle" style="">joaca</text>
 <text x="603.4" y="1074.2" font-family="Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#8a5638" text-anchor="middle" style="">CLADIREA EXISTENTA</text>
-<text x="926.8" y="458.2" font-family="Helvetica,Arial,sans-serif" font-size="19" font-weight="600" fill="#e8779f" text-anchor="middle" style="">rampa</text>
 <text x="687.0" y="948.8" font-family="Helvetica,Arial,sans-serif" font-size="19" font-weight="600" fill="#c1121f" text-anchor="middle" style="">usa camerei tehnice</text>
 <line x1="797.0" y1="943.1" x2="863.0" y2="920.2" stroke="#c1121f" stroke-width="1.6"/>
 <line x1="185.4" y1="915.8" x2="185.4" y2="973.0" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
@@ -192,14 +216,14 @@
 <line x1="1285.4" y1="915.8" x2="1347.0" y2="915.8" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
 <line x1="1347.0" y1="387.8" x2="1347.0" y2="915.8" stroke="#7a3fb8" stroke-width="2.2" marker-start="url(#sg)" marker-end="url(#sg)" stroke-dasharray="9 6"/>
 <text x="1347.0" y="659.8" font-family="Helvetica,Arial,sans-serif" font-size="25" font-weight="600" fill="#7a3fb8" text-anchor="middle" style="writing-mode:tb;glyph-orientation-vertical:0">12 m</text>
-<line x1="849.8" y1="387.8" x2="849.8" y2="330.6" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
-<line x1="1003.8" y1="387.8" x2="1003.8" y2="330.6" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
-<line x1="849.8" y1="330.6" x2="1003.8" y2="330.6" stroke="#7a3fb8" stroke-width="2.2" marker-start="url(#sg)" marker-end="url(#sg)" stroke-dasharray="9 6"/>
-<text x="926.8" y="319.6" font-family="Helvetica,Arial,sans-serif" font-size="25" font-weight="600" fill="#7a3fb8" text-anchor="middle" style="">3,5 m</text>
-<line x1="911.4" y1="832.2" x2="911.4" y2="779.4" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
-<line x1="1065.4" y1="832.2" x2="1065.4" y2="779.4" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
-<line x1="911.4" y1="779.4" x2="1065.4" y2="779.4" stroke="#7a3fb8" stroke-width="2.2" marker-start="url(#sg)" marker-end="url(#sg)" stroke-dasharray="9 6"/>
-<text x="988.4" y="768.4" font-family="Helvetica,Arial,sans-serif" font-size="25" font-weight="600" fill="#7a3fb8" text-anchor="middle" style="">3,5 m</text>
+<line x1="849.8" y1="387.8" x2="849.8" y2="304.2" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
+<line x1="1003.8" y1="387.8" x2="1003.8" y2="304.2" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
+<line x1="849.8" y1="304.2" x2="1003.8" y2="304.2" stroke="#7a3fb8" stroke-width="2.2" marker-start="url(#sg)" marker-end="url(#sg)" stroke-dasharray="9 6"/>
+<text x="926.8" y="293.2" font-family="Helvetica,Arial,sans-serif" font-size="25" font-weight="600" fill="#7a3fb8" text-anchor="middle" style="">3,5 m</text>
+<line x1="867.4" y1="863.0" x2="867.4" y2="810.2" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
+<line x1="1043.4" y1="863.0" x2="1043.4" y2="810.2" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
+<line x1="867.4" y1="810.2" x2="1043.4" y2="810.2" stroke="#7a3fb8" stroke-width="2.2" marker-start="url(#sg)" marker-end="url(#sg)"/>
+<text x="955.4" y="799.2" font-family="Helvetica,Arial,sans-serif" font-size="25" font-weight="600" fill="#7a3fb8" text-anchor="middle" style="">4 m</text>
 <line x1="185.4" y1="915.8" x2="128.2" y2="915.8" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
 <line x1="185.4" y1="1219.4" x2="128.2" y2="1219.4" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
 <line x1="128.2" y1="915.8" x2="128.2" y2="1219.4" stroke="#7a3fb8" stroke-width="2.2" marker-start="url(#sg)" marker-end="url(#sg)" stroke-dasharray="9 6"/>
@@ -213,7 +237,7 @@
 <line x1="115.0" y1="1495.6" x2="173.0" y2="1495.6" stroke="#a8adb5" stroke-width="10"/>
 <text x="189.0" y="1502.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">conturul partii de sus</text>
 <line x1="115.0" y1="1530.6" x2="173.0" y2="1530.6" stroke="#e8779f" stroke-width="10"/>
-<text x="189.0" y="1537.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">rampa auto</text>
+<text x="189.0" y="1537.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">acces + usa de garaj</text>
 <line x1="115.0" y1="1565.6" x2="173.0" y2="1565.6" stroke="#3fa9d4" stroke-width="10"/>
 <text x="189.0" y="1572.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">scara</text>
 <line x1="115.0" y1="1600.6" x2="173.0" y2="1600.6" stroke="#c1121f" stroke-width="10"/>
@@ -223,35 +247,37 @@
 <line x1="115.0" y1="1670.6" x2="173.0" y2="1670.6" stroke="#1f7a4d" stroke-width="10"/>
 <text x="189.0" y="1677.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">traseul de iarna</text>
 <text x="495.0" y="1427.6" font-family="Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#141414" text-anchor="start">Suprafete demisol</text>
-<text x="495.0" y="1467.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">CAM. D  depozitare + garaj</text>
+<text x="495.0" y="1467.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">CAM. D  depozitare</text>
 <text x="945.0" y="1467.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6b7076" text-anchor="end">19,0 x 6,0</text>
 <text x="1085.0" y="1467.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="end">114,0 m2</text>
 <text x="495.0" y="1498.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">CAM. J  joaca: TV, biliard, ping-pong</text>
 <text x="945.0" y="1498.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6b7076" text-anchor="end">6,0 x 12,0</text>
 <text x="1085.0" y="1498.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="end">72,0 m2</text>
-<text x="495.0" y="1529.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">rampa auto, pe sub bara</text>
+<text x="495.0" y="1529.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">acces cu usa de garaj la nord</text>
 <text x="945.0" y="1529.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6b7076" text-anchor="end">3,5 x 6,0</text>
 <text x="1085.0" y="1529.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="end">21,0 m2</text>
-<text x="495.0" y="1560.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">scara spre holul de sus</text>
-<text x="945.0" y="1560.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6b7076" text-anchor="end">3,5 x 1,1</text>
-<text x="1085.0" y="1560.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="end">3,9 m2</text>
+<text x="495.0" y="1560.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">scara, 4 m masurati</text>
+<text x="945.0" y="1560.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6b7076" text-anchor="end">4,0 x 1,1</text>
+<text x="1085.0" y="1560.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="end">4,4 m2</text>
 <text x="495.0" y="1591.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">cladirea existenta (necotata)</text>
 <text x="945.0" y="1591.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6b7076" text-anchor="end">19,0 x 6,9</text>
 <text x="1085.0" y="1591.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="end">131,1 m2</text>
 <line x1="495.0" y1="1613.6" x2="1085.0" y2="1613.6" stroke="#c9ced4" stroke-width="1.6"/>
-<text x="495.0" y="1634.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#141414" text-anchor="start">demisol, fara rampa</text>
+<text x="495.0" y="1634.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#141414" text-anchor="start">demisol, fara zona de acces</text>
 <text x="1085.0" y="1634.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#141414" text-anchor="end">186,0 m2</text>
 <text x="495.0" y="1664.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#141414" text-anchor="start">parter, sub acoperis</text>
 <text x="1085.0" y="1664.6" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#141414" text-anchor="end">186,0 m2</text>
 <text x="1245.0" y="1427.6" font-family="Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#141414" text-anchor="start">Note</text>
-<text x="1245.0" y="1467.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">Demisolul nu are nicio cota scrisa. Tot ce e mai jos s-a masurat</text>
-<text x="1245.0" y="1497.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">fata de conturul partii de sus, care are cote cunoscute.</text>
-<text x="1245.0" y="1527.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">A  Rampa trece pe sub bazin. Bazinul coboara 1,45 m sub parter,</text>
-<text x="1245.0" y="1557.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">   deci sub el raman 1,4 m liberi. O masina cere 2,2 m.</text>
-<text x="1245.0" y="1587.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">B  Scara are 3,5 m de rampa pentru 3,1 m diferenta de nivel:</text>
-<text x="1245.0" y="1617.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">   trepte de 22 cm. Pentru 25 cm ii trebuie 4,3 m.</text>
-<text x="1245.0" y="1647.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">Traseul de iarna: casa -> camera tehnica -> CAM. D -> scara -></text>
-<text x="1245.0" y="1677.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">   capatul de sud al holului de sus. Tot pe interior.</text>
-<text x="1245.0" y="1707.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">Deasupra lui CAM. J stau baile, sauna si sala: hidroizolatie</text>
-<text x="1245.0" y="1737.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">   si scurgeri de prevazut in placa.</text>
+<text x="1245.0" y="1467.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">Cotele in plan s-au masurat fata de conturul partii de sus.</text>
+<text x="1245.0" y="1497.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">Diferenta de nivel si cei 4 m ai scarii sunt masurati de tine.</text>
+<text x="1245.0" y="1527.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">A  Gabaritul demisolului. 2,15 m diferenta de nivel minus 30 cm</text>
+<text x="1245.0" y="1557.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">   de placa lasa 1,85 m liberi. O camera de joaca cere 2,40 m.</text>
+<text x="1245.0" y="1587.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">   Solutia: se sapa cu inca 60 cm; scara ajunge la 16 trepte,</text>
+<text x="1245.0" y="1617.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">   adica 3,98 m de rampa — incap in cei 4 m masurati.</text>
+<text x="1245.0" y="1647.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">B  Zona de acces se suprapune 2,4 m peste bazin. Sub bazin</text>
+<text x="1245.0" y="1677.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">   raman 40 cm. Bazinul se muta spre vest sau accesul spre est.</text>
+<text x="1245.0" y="1707.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">Traseul de iarna: casa -> camera tehnica -> CAM. D -> scara -></text>
+<text x="1245.0" y="1737.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">   capatul de sud al holului de sus. Tot pe interior.</text>
+<text x="1245.0" y="1767.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">Deasupra lui CAM. J stau baile, sauna si sala: hidroizolatie</text>
+<text x="1245.0" y="1797.6" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">   si scurgeri de prevazut in placa.</text>
 </svg>
