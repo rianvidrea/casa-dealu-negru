@@ -114,15 +114,16 @@ usa camerei tehnice.
 | Zona | Dimensiuni | Suprafata |
 |---|---|---|
 | CAM. D — depozitare | 7,0 × 6,0 | 42,0 m² |
-| CAM. J — joacă, în L până la ușa de garaj | 72,0 + 23,4 | 95,4 m² |
+| CAM. J — joacă, sub saună și sub sală | 5,0 × 5,0 | 25,0 m² |
+| fâșia de acces spre CAM. D, cu ușă de garaj | 3,5 × 6,0 | 21,0 m² |
 | scara | 4,0 × 1,1 | 4,4 m² |
 | clădirea existentă (adâncime estimată) | 13,0 × 6,9 | 89,7 m² |
 
-Demisol: **137,4 m²**. Parter: 186,0 m².
+Demisol, fără fâșia de acces: **67,0 m²**. Parter: 186,0 m².
 
 CAM. D merge 3 m la stânga ușii roșii, deci are 7 m, și se oprește la est pe
-x = 19, acolo unde cade scara. CAM. J se întinde în L, cu brațul de nord ajuns
-până la ușa de garaj de pe fațada de nord. Casa rămâne la 13 m.
+x = 19, acolo unde cade scara. CAM. J stă doar sub saună și sub sală, adică
+5 × 5 m în colțul de sud-est. Casa rămâne la 13 m.
 
 Traseul de iarnă merge casă → cameră tehnică → CAM. D → scară → capătul de sud
 al holului de sus, tot pe interior.
@@ -136,10 +137,17 @@ al holului de sus, tot pe interior.
    care încap fix în cei 4 m măsurați. Deasupra lui CAM. D e doar terasa, iar
    deasupra lui CAM. J doar aripa, deci coborârea nu schimbă nimic la parter:
    e numai săpătură.
-2. **B — brațul lui CAM. J trece 2,4 m pe sub bazin.** Brațul e la x 15,1–19,
-   bazinul la 11,5–17,5. Sub bazin rămân circa 40 cm, iar acum acolo e cameră
-   de joacă, nu depozit — deci e mai grav decât înainte. Bazinul se mută spre
-   vest, la 10,3–16,3, și brațul rămâne liber pe toată lățimea.
+2. **B — fâșia de acces trece 2,4 m pe sub bazin.** Fâșia e la x 15,1–18,6,
+   bazinul la 11,5–17,5. Sub bazin rămân circa 40 cm. Bazinul se mută spre
+   vest, la 10,3–16,3, și fâșia rămâne liberă pe toată lățimea.
+3. **C — CAM. J nu are acces.** Între ea și CAM. D e fâșia de 1 m de sub hol,
+   care nu e demisol, deci camera de joacă rămâne izolată. Dacă CAM. J se
+   prelungește un metru spre vest, până la x = 19, atinge CAM. D și primește
+   ușă.
+4. **CAM. J are 25 m².** Biliardul singur cere circa 24 m² cu spațiul de tac în
+   jur, iar ping-pongul încă vreo 15. TV cu canapea, biliard, ping-pong și
+   fotbal de masă nu încap în 5 × 5 m — intră cel mult canapeaua cu televizorul
+   și un singur joc.
 3. **Ușa de garaj e pe fațada de nord, la cota demisolului.** Terenul urcă spre
    nord, deci acolo cota naturală e la nivelul parterului — ușa ar fi îngropată
    2 m. Ori se face un decupaj în teren în fața ei, ori ușa e de fapt la cota

@@ -24,8 +24,8 @@ import plan_compartimente as P
 # --------------------------------------------------------------------------
 
 CAMD = (12.0, 6.0, 19.0, 12.0)       # 3 m la stanga usii rosii (x = 15)
-CAMJ = (19.0, 0.0, 25.0, 12.0)       # camera de joaca, sub aripa
-CAMJ_EXT = (15.1, 0.0, 19.0, 6.0)    # bratul lui CAM. J, pana la usa de garaj
+CAMJ = (20.0, 7.0, 25.0, 12.0)       # doar sub sauna si sub sala
+ACCES = (15.1, 0.0, 18.6, 6.0)       # acces spre CAM. D, cu usa de garaj
 USA_GARAJ = (15.1, 0.0, 18.6, 0.0)   # usa de garaj, pe fatada de nord
 SCARA = (15.5, 10.8, 19.5, 11.9)     # scara: 4 m masurati de la usa tehnica
 DIF_NIVEL = 2.15                     # diferenta de nivel masurata, "2 m si un pic"
@@ -40,7 +40,7 @@ CASA = (6.0, 12.0, 19.0, 18.9)       # cladirea existenta: latura de 13 m
 
 P.SCARA = 44.0
 P.MARGINE = 115.0
-P.LEGENDA_H = 620.0
+P.LEGENDA_H = 780.0
 P.X_MIN, P.X_MAX = -1.6, 26.6
 P.Y_MIN, P.Y_MAX = -6.2, 21.0
 P.W = max((P.X_MAX - P.X_MIN) * P.SCARA + 2 * P.MARGINE, 1990.0)
@@ -111,7 +111,7 @@ def strat_demisol():
     # pardoseli
     o.append(rect(*CAMD, fill="#fbf7ef", stroke="none"))
     o.append(rect(*CAMJ, fill="#fbf7ef", stroke="none"))
-    o.append(rect(*CAMJ_EXT, fill="#fbf7ef", stroke="none"))
+    o.append(rect(*ACCES, fill="#fdeef3", stroke="none"))
     # cladirea existenta
     o.append(rect(*CASA, fill="#f6ece5", stroke="none"))
     o.extend(hasura(*CASA))
@@ -119,20 +119,24 @@ def strat_demisol():
 
     # zidurile demisolului
     z = dict(stroke=C_ZID, stroke_width="8", stroke_linecap="butt")
-    # CAM. D
-    o.append(line(CAMD[0], CAMD[1], CAMD[2], CAMD[1], **z))
+    # CAM. D, cu golul spre fasia de acces pe latura de nord
+    o.append(line(CAMD[0], CAMD[1], ACCES[0], CAMD[1], **z))
+    o.append(line(ACCES[2], CAMD[1], CAMD[2], CAMD[1], **z))
     o.append(line(CAMD[0], CAMD[1], CAMD[0], CAMD[3], **z))
     o.append(line(CAMD[0], CAMD[3], CAMD[2], CAMD[3], **z))
     o.append(line(CAMD[2], CAMD[1], CAMD[2], SCARA[1], **z))
     o.append(line(CAMD[2], SCARA[3], CAMD[2], CAMD[3], **z))
-    # CAM. J, conturul in L
-    o.append(line(CAMJ_EXT[0], 0.0, CAMJ[2], 0.0, **z))
-    o.append(line(CAMJ_EXT[0], 0.0, CAMJ_EXT[0], CAMJ_EXT[3], **z))
-    o.append(line(CAMJ_EXT[0], CAMJ_EXT[3], CAMJ[0], CAMJ_EXT[3], **z))
-    o.append(line(CAMJ[2], 0.0, CAMJ[2], CAMJ[3], **z))
+    # CAM. J
+    o.append(line(CAMJ[0], CAMJ[1], CAMJ[2], CAMJ[1], **z))
+    o.append(line(CAMJ[0], CAMJ[1], CAMJ[0], CAMJ[3], **z))
+    o.append(line(CAMJ[2], CAMJ[1], CAMJ[2], CAMJ[3], **z))
     o.append(line(CAMJ[0], CAMJ[3], CAMJ[2], CAMJ[3], **z))
 
-    # usa de garaj, pe fatada de nord a bratului lui CAM. J
+    # fasia de acces spre CAM. D, cu usa de garaj la nord
+    o.append(rect(*ACCES, fill="none", stroke=C_RAMPA, stroke_width="5",
+                  stroke_dasharray="12 7"))
+    o.append(text((ACCES[0] + ACCES[2]) / 2.0, 3.2, "acces", size=19,
+                  weight="600", fill=C_RAMPA))
     o.append(line(*USA_GARAJ, stroke="#ffffff", stroke_width="13"))
     o.append(line(*USA_GARAJ, stroke=C_RAMPA, stroke_width="9"))
     for k in range(7):
@@ -167,7 +171,7 @@ def strat_demisol():
 def note_clash():
     """Cerculetele portocalii care marcheaza cele doua ciocniri."""
     o = []
-    for nr, (cx, cy) in {"A": (20.8, 14.1), "B": (16.4, 2.2)}.items():
+    for nr, (cx, cy) in {"A": (20.8, 14.1), "B": (16.4, 1.4), "C": (19.5, 9.2)}.items():
         o.append(circle(cx, cy, 0.5, fill=C_NOTA, stroke="#ffffff",
                         stroke_width="2"))
         o.append(text(cx, cy, nr, size=22, weight="700", fill="#ffffff", dy=8))
@@ -230,7 +234,8 @@ def sectiune_gabarit():
 
 TABEL = [
     ("CAM. D  depozitare", "7,0 x 6,0", "42,0"),
-    ("CAM. J  joaca, in L", "72,0 + 23,4", "95,4"),
+    ("CAM. J  joaca, sub sauna si sala", "5,0 x 5,0", "25,0"),
+    ("acces spre CAM. D, cu usa de garaj", "3,5 x 6,0", "21,0"),
         ("scara, 4 m masurati", "4,0 x 1,1", "4,4"),
     ("cladirea existenta", "13,0 x 6,9", "89,7"),
 ]
@@ -239,18 +244,23 @@ NOTE = [
     ("Masurate de tine: latura de 13 m, cei 4 m ai scarii si diferenta", "#33383f"),
     ("de nivel. Restul cotelor sunt scoase din desen — punctate.", "#33383f"),
     ("CAM. D merge 3 m la stanga usii rosii, deci are 7 m. CAM. J", "#33383f"),
-    ("   se intinde in L pana la usa de garaj. Casa ramane la 13 m.", "#33383f"),
+    ("   sta doar sub sauna si sub sala. Casa ramane la 13 m.", "#33383f"),
     ("A  Gabaritul demisolului. 2,15 m diferenta de nivel minus 30 cm", C_NOTA),
     ("   de placa lasa 1,85 m liberi. O camera de joaca cere 2,40 m.", C_NOTA),
     ("   Solutia: se sapa cu inca 60 cm; scara ajunge la 16 trepte,", C_NOTA),
     ("   adica 3,98 m de rampa — incap in cei 4 m masurati.", C_NOTA),
-    ("B  Bratul lui CAM. J trece 2,4 m pe sub bazin, unde raman", C_NOTA),
-    ("   40 cm. Bazinul se muta spre vest, la 10,3-16,3, si bratul", C_NOTA),
-    ("   ramane liber pe toata latimea.", C_NOTA),
+    ("B  Fasia de acces trece 2,4 m pe sub bazin, unde raman 40 cm.", C_NOTA),
+    ("   Bazinul se muta spre vest, la 10,3-16,3, si fasia ramane", C_NOTA),
+    ("   libera pe toata latimea.", C_NOTA),
+    ("C  CAM. J nu are acces. Intre ea si CAM. D e fasia de 1 m de", C_NOTA),
+    ("   sub hol, care nu e demisol. Daca CAM. J se prelungeste pana", C_NOTA),
+    ("   la x = 19, atinge CAM. D si primeste usa.", C_NOTA),
+    ("CAM. J are 25 m2. Biliardul singur cere ~24 m2 cu spatiu de tac,", C_NOTA),
+    ("   iar ping-pongul inca ~15. Cele patru functii cerute nu incap.", C_NOTA),
     ("Traseul de iarna: casa -> camera tehnica -> CAM. D -> scara ->", "#33383f"),
     ("   capatul de sud al holului de sus. Tot pe interior.", "#33383f"),
-    ("Deasupra lui CAM. J stau baile, sauna si sala: hidroizolatie", "#33383f"),
-    ("   si scurgeri de prevazut in placa.", "#33383f"),
+    ("Deasupra lui CAM. J stau sauna si sala: hidroizolatie sub", "#33383f"),
+    ("   cabina de sauna si scurgerea ei de coborat in tavan fals.", "#33383f"),
 ]
 
 
@@ -285,8 +295,9 @@ def legenda(y0):
     yy = y0 + 40 + len(TABEL) * 31 + 12
     out.append('<line x1="%.1f" y1="%.1f" x2="%.1f" y2="%.1f" stroke="#c9ced4" '
                'stroke-width="1.6"/>' % (x2, yy - 21, x2 + 590, yy - 21))
-    out.append(text_px(x2, yy, "demisol", size=21, weight="700"))
-    out.append(text_px(x2 + 590, yy, "137,4 m2", size=21, weight="700",
+    out.append(text_px(x2, yy, "demisol, fara fasia de acces", size=21,
+                       weight="700"))
+    out.append(text_px(x2 + 590, yy, "67,0 m2", size=21, weight="700",
                        anchor="end"))
     out.append(text_px(x2, yy + 30, "parter, sub acoperis", size=21,
                        weight="700"))
@@ -304,8 +315,8 @@ COTE = [
     (CAMD[0], CAMD[3], CAMD[2], CAMD[3], "7 m", True, 1.3),
     (CAMD[0], CAMD[3], USA_TEHNICA[0], CAMD[3], "3 m", True, -0.95),
     (CAMD[0], CAMD[1], CAMD[0], CAMD[3], "6 m", False, -1.4),
-    (CAMJ[0], CAMJ[3], CAMJ[2], CAMJ[3], "6 m", False, 1.3),
-    (CAMJ[2], CAMJ[1], CAMJ[2], CAMJ[3], "12 m", False, 1.4),
+    (CAMJ[0], CAMJ[3], CAMJ[2], CAMJ[3], "5 m", False, 1.3),
+    (CAMJ[2], CAMJ[1], CAMJ[2], CAMJ[3], "5 m", False, 1.4),
     (USA_GARAJ[0], 0.0, USA_GARAJ[2], 0.0, "3,5 m", False, -1.9),
     (SCARA[0], SCARA[1], SCARA[2], SCARA[1], "4 m", True, -1.2),
     (CASA[0], CASA[3], CASA[2], CASA[3], "13 m", True, 1.3),
@@ -341,9 +352,9 @@ def construieste_svg():
                   style="opacity:0.20"))
     o.append(text(14.6, 8.8, "depozitare", size=21, weight="600",
                   fill="#3b4149"))
-    o.append(text(17.05, 4.5, "CAM. J", size=36, weight="700", fill="#1d2126",
+    o.append(text(22.4, 9.5, "CAM. J", size=36, weight="700", fill="#1d2126",
                   style="opacity:0.22"))
-    o.append(text(17.05, 5.15, "joaca", size=20, weight="600", fill="#3b4149"))
+    o.append(text(22.4, 10.15, "joaca", size=20, weight="600", fill="#3b4149"))
     o.append(text(12.5, 15.6, "CLADIREA EXISTENTA", size=26, weight="700",
                   fill="#8a5638"))
     o.append(text(8.6, 14.5, "usa camerei tehnice", size=19, weight="600",

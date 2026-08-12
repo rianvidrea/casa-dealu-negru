@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1990" height="2047" viewBox="0 0 1990 2047">
+<svg xmlns="http://www.w3.org/2000/svg" width="1990" height="2207" viewBox="0 0 1990 2207">
 <defs><marker id="sg" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3fb8"/></marker></defs>
-<rect width="1990" height="2047" fill="#ffffff"/>
+<rect width="1990" height="2207" fill="#ffffff"/>
 <g stroke="#eceef1" stroke-width="1">
 <line x1="141.4" y1="115.0" x2="141.4" y2="1311.8" />
 <line x1="185.4" y1="115.0" x2="185.4" y2="1311.8" />
@@ -60,8 +60,8 @@
 <line x1="115.0" y1="1311.8" x2="1355.8" y2="1311.8" />
 </g>
 <rect x="713.4" y="651.8" width="308.0" height="264.0" fill="#fbf7ef" stroke="none"/>
-<rect x="1021.4" y="387.8" width="264.0" height="528.0" fill="#fbf7ef" stroke="none"/>
-<rect x="849.8" y="387.8" width="171.6" height="264.0" fill="#fbf7ef" stroke="none"/>
+<rect x="1065.4" y="695.8" width="220.0" height="220.0" fill="#fbf7ef" stroke="none"/>
+<rect x="849.8" y="387.8" width="154.0" height="264.0" fill="#fdeef3" stroke="none"/>
 <rect x="449.4" y="915.8" width="572.0" height="303.6" fill="#f6ece5" stroke="none"/>
 <line x1="449.4" y1="1171.0" x2="497.8" y2="1219.4" stroke="#c08a68" stroke-width="2.0" opacity="0.75"/>
 <line x1="449.4" y1="1122.6" x2="546.2" y2="1219.4" stroke="#c08a68" stroke-width="2.0" opacity="0.75"/>
@@ -82,16 +82,18 @@
 <line x1="968.6" y1="915.8" x2="1021.4" y2="968.6" stroke="#c08a68" stroke-width="2.0" opacity="0.75"/>
 <line x1="1017.0" y1="915.8" x2="1021.4" y2="920.2" stroke="#c08a68" stroke-width="2.0" opacity="0.75"/>
 <rect x="449.4" y="915.8" width="572.0" height="303.6" fill="none" stroke="#a9714f" stroke-width="6"/>
-<line x1="713.4" y1="651.8" x2="1021.4" y2="651.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
+<line x1="713.4" y1="651.8" x2="849.8" y2="651.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
+<line x1="1003.8" y1="651.8" x2="1021.4" y2="651.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
 <line x1="713.4" y1="651.8" x2="713.4" y2="915.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
 <line x1="713.4" y1="915.8" x2="1021.4" y2="915.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
 <line x1="1021.4" y1="651.8" x2="1021.4" y2="863.0" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
 <line x1="1021.4" y1="911.4" x2="1021.4" y2="915.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
-<line x1="849.8" y1="387.8" x2="1285.4" y2="387.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
-<line x1="849.8" y1="387.8" x2="849.8" y2="651.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
-<line x1="849.8" y1="651.8" x2="1021.4" y2="651.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
-<line x1="1285.4" y1="387.8" x2="1285.4" y2="915.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
-<line x1="1021.4" y1="915.8" x2="1285.4" y2="915.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
+<line x1="1065.4" y1="695.8" x2="1285.4" y2="695.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
+<line x1="1065.4" y1="695.8" x2="1065.4" y2="915.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
+<line x1="1285.4" y1="695.8" x2="1285.4" y2="915.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
+<line x1="1065.4" y1="915.8" x2="1285.4" y2="915.8" stroke="#141414" stroke-width="8" stroke-linecap="butt"/>
+<rect x="849.8" y="387.8" width="154.0" height="264.0" fill="none" stroke="#e8779f" stroke-width="5" stroke-dasharray="12 7"/>
+<text x="926.8" y="528.6" font-family="Helvetica,Arial,sans-serif" font-size="19" font-weight="600" fill="#e8779f" text-anchor="middle" style="">acces</text>
 <line x1="849.8" y1="387.8" x2="1003.8" y2="387.8" stroke="#ffffff" stroke-width="13"/>
 <line x1="849.8" y1="387.8" x2="1003.8" y2="387.8" stroke="#e8779f" stroke-width="9"/>
 <line x1="859.5" y1="380.8" x2="859.5" y2="394.8" stroke="#ffffff" stroke-width="2.2"/>
@@ -186,12 +188,14 @@
 <text x="1267.8" y="1129.0" font-family="Helvetica,Arial,sans-serif" font-size="19" font-weight="600" fill="#d1600f" text-anchor="middle" style="writing-mode:tb;glyph-orientation-vertical:0">2,40 m</text>
 <circle cx="1100.6" cy="1008.2" r="22.0" fill="#d1600f" stroke="#ffffff" stroke-width="2"/>
 <text x="1100.6" y="1016.2" font-family="Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" style="">A</text>
-<circle cx="907.0" cy="484.6" r="22.0" fill="#d1600f" stroke="#ffffff" stroke-width="2"/>
-<text x="907.0" y="492.6" font-family="Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" style="">B</text>
+<circle cx="907.0" cy="449.4" r="22.0" fill="#d1600f" stroke="#ffffff" stroke-width="2"/>
+<text x="907.0" y="457.4" font-family="Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" style="">B</text>
+<circle cx="1043.4" cy="792.6" r="22.0" fill="#d1600f" stroke="#ffffff" stroke-width="2"/>
+<text x="1043.4" y="800.6" font-family="Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" style="">C</text>
 <text x="827.8" y="744.2" font-family="Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#1d2126" text-anchor="middle" style="opacity:0.20">CAM. D</text>
 <text x="827.8" y="775.0" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="600" fill="#3b4149" text-anchor="middle" style="">depozitare</text>
-<text x="935.6" y="585.8" font-family="Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#1d2126" text-anchor="middle" style="opacity:0.22">CAM. J</text>
-<text x="935.6" y="614.4" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#3b4149" text-anchor="middle" style="">joaca</text>
+<text x="1171.0" y="805.8" font-family="Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#1d2126" text-anchor="middle" style="opacity:0.22">CAM. J</text>
+<text x="1171.0" y="834.4" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#3b4149" text-anchor="middle" style="">joaca</text>
 <text x="735.4" y="1074.2" font-family="Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#8a5638" text-anchor="middle" style="">CLADIREA EXISTENTA</text>
 <text x="563.8" y="1025.8" font-family="Helvetica,Arial,sans-serif" font-size="19" font-weight="600" fill="#c1121f" text-anchor="middle" style="">usa camerei tehnice</text>
 <line x1="673.8" y1="1019.2" x2="854.2" y2="922.4" stroke="#c1121f" stroke-width="1.6"/>
@@ -207,14 +211,14 @@
 <line x1="713.4" y1="915.8" x2="651.8" y2="915.8" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
 <line x1="651.8" y1="651.8" x2="651.8" y2="915.8" stroke="#7a3fb8" stroke-width="2.2" marker-start="url(#sg)" marker-end="url(#sg)" stroke-dasharray="9 6"/>
 <text x="651.8" y="791.8" font-family="Helvetica,Arial,sans-serif" font-size="25" font-weight="600" fill="#7a3fb8" text-anchor="middle" style="writing-mode:tb;glyph-orientation-vertical:0">6 m</text>
-<line x1="1021.4" y1="915.8" x2="1021.4" y2="973.0" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
+<line x1="1065.4" y1="915.8" x2="1065.4" y2="973.0" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
 <line x1="1285.4" y1="915.8" x2="1285.4" y2="973.0" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
-<line x1="1021.4" y1="973.0" x2="1285.4" y2="973.0" stroke="#7a3fb8" stroke-width="2.2" marker-start="url(#sg)" marker-end="url(#sg)" stroke-dasharray="9 6"/>
-<text x="1153.4" y="962.0" font-family="Helvetica,Arial,sans-serif" font-size="25" font-weight="600" fill="#7a3fb8" text-anchor="middle" style="">6 m</text>
-<line x1="1285.4" y1="387.8" x2="1347.0" y2="387.8" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
+<line x1="1065.4" y1="973.0" x2="1285.4" y2="973.0" stroke="#7a3fb8" stroke-width="2.2" marker-start="url(#sg)" marker-end="url(#sg)" stroke-dasharray="9 6"/>
+<text x="1175.4" y="962.0" font-family="Helvetica,Arial,sans-serif" font-size="25" font-weight="600" fill="#7a3fb8" text-anchor="middle" style="">5 m</text>
+<line x1="1285.4" y1="695.8" x2="1347.0" y2="695.8" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
 <line x1="1285.4" y1="915.8" x2="1347.0" y2="915.8" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
-<line x1="1347.0" y1="387.8" x2="1347.0" y2="915.8" stroke="#7a3fb8" stroke-width="2.2" marker-start="url(#sg)" marker-end="url(#sg)" stroke-dasharray="9 6"/>
-<text x="1347.0" y="659.8" font-family="Helvetica,Arial,sans-serif" font-size="25" font-weight="600" fill="#7a3fb8" text-anchor="middle" style="writing-mode:tb;glyph-orientation-vertical:0">12 m</text>
+<line x1="1347.0" y1="695.8" x2="1347.0" y2="915.8" stroke="#7a3fb8" stroke-width="2.2" marker-start="url(#sg)" marker-end="url(#sg)" stroke-dasharray="9 6"/>
+<text x="1347.0" y="813.8" font-family="Helvetica,Arial,sans-serif" font-size="25" font-weight="600" fill="#7a3fb8" text-anchor="middle" style="writing-mode:tb;glyph-orientation-vertical:0">5 m</text>
 <line x1="849.8" y1="387.8" x2="849.8" y2="304.2" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
 <line x1="1003.8" y1="387.8" x2="1003.8" y2="304.2" stroke="#7a3fb8" stroke-width="1.4" opacity="0.5"/>
 <line x1="849.8" y1="304.2" x2="1003.8" y2="304.2" stroke="#7a3fb8" stroke-width="2.2" marker-start="url(#sg)" marker-end="url(#sg)" stroke-dasharray="9 6"/>
@@ -253,34 +257,42 @@
 <text x="495.0" y="1502.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">CAM. D  depozitare</text>
 <text x="945.0" y="1502.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6b7076" text-anchor="end">7,0 x 6,0</text>
 <text x="1085.0" y="1502.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="end">42,0 m2</text>
-<text x="495.0" y="1533.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">CAM. J  joaca, in L</text>
-<text x="945.0" y="1533.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6b7076" text-anchor="end">72,0 + 23,4</text>
-<text x="1085.0" y="1533.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="end">95,4 m2</text>
-<text x="495.0" y="1564.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">scara, 4 m masurati</text>
-<text x="945.0" y="1564.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6b7076" text-anchor="end">4,0 x 1,1</text>
-<text x="1085.0" y="1564.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="end">4,4 m2</text>
-<text x="495.0" y="1595.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">cladirea existenta</text>
-<text x="945.0" y="1595.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6b7076" text-anchor="end">13,0 x 6,9</text>
-<text x="1085.0" y="1595.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="end">89,7 m2</text>
-<line x1="495.0" y1="1617.8" x2="1085.0" y2="1617.8" stroke="#c9ced4" stroke-width="1.6"/>
-<text x="495.0" y="1638.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#141414" text-anchor="start">demisol</text>
-<text x="1085.0" y="1638.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#141414" text-anchor="end">137,4 m2</text>
-<text x="495.0" y="1668.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#141414" text-anchor="start">parter, sub acoperis</text>
-<text x="1085.0" y="1668.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#141414" text-anchor="end">186,0 m2</text>
+<text x="495.0" y="1533.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">CAM. J  joaca, sub sauna si sala</text>
+<text x="945.0" y="1533.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6b7076" text-anchor="end">5,0 x 5,0</text>
+<text x="1085.0" y="1533.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="end">25,0 m2</text>
+<text x="495.0" y="1564.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">acces spre CAM. D, cu usa de garaj</text>
+<text x="945.0" y="1564.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6b7076" text-anchor="end">3,5 x 6,0</text>
+<text x="1085.0" y="1564.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="end">21,0 m2</text>
+<text x="495.0" y="1595.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">scara, 4 m masurati</text>
+<text x="945.0" y="1595.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6b7076" text-anchor="end">4,0 x 1,1</text>
+<text x="1085.0" y="1595.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="end">4,4 m2</text>
+<text x="495.0" y="1626.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="start">cladirea existenta</text>
+<text x="945.0" y="1626.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6b7076" text-anchor="end">13,0 x 6,9</text>
+<text x="1085.0" y="1626.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#33383f" text-anchor="end">89,7 m2</text>
+<line x1="495.0" y1="1648.8" x2="1085.0" y2="1648.8" stroke="#c9ced4" stroke-width="1.6"/>
+<text x="495.0" y="1669.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#141414" text-anchor="start">demisol, fara fasia de acces</text>
+<text x="1085.0" y="1669.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#141414" text-anchor="end">67,0 m2</text>
+<text x="495.0" y="1699.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#141414" text-anchor="start">parter, sub acoperis</text>
+<text x="1085.0" y="1699.8" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#141414" text-anchor="end">186,0 m2</text>
 <text x="1245.0" y="1462.8" font-family="Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#141414" text-anchor="start">Note</text>
 <text x="1245.0" y="1502.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">Masurate de tine: latura de 13 m, cei 4 m ai scarii si diferenta</text>
 <text x="1245.0" y="1532.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">de nivel. Restul cotelor sunt scoase din desen — punctate.</text>
 <text x="1245.0" y="1562.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">CAM. D merge 3 m la stanga usii rosii, deci are 7 m. CAM. J</text>
-<text x="1245.0" y="1592.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">   se intinde in L pana la usa de garaj. Casa ramane la 13 m.</text>
+<text x="1245.0" y="1592.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">   sta doar sub sauna si sub sala. Casa ramane la 13 m.</text>
 <text x="1245.0" y="1622.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">A  Gabaritul demisolului. 2,15 m diferenta de nivel minus 30 cm</text>
 <text x="1245.0" y="1652.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">   de placa lasa 1,85 m liberi. O camera de joaca cere 2,40 m.</text>
 <text x="1245.0" y="1682.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">   Solutia: se sapa cu inca 60 cm; scara ajunge la 16 trepte,</text>
 <text x="1245.0" y="1712.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">   adica 3,98 m de rampa — incap in cei 4 m masurati.</text>
-<text x="1245.0" y="1742.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">B  Bratul lui CAM. J trece 2,4 m pe sub bazin, unde raman</text>
-<text x="1245.0" y="1772.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">   40 cm. Bazinul se muta spre vest, la 10,3-16,3, si bratul</text>
-<text x="1245.0" y="1802.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">   ramane liber pe toata latimea.</text>
-<text x="1245.0" y="1832.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">Traseul de iarna: casa -> camera tehnica -> CAM. D -> scara -></text>
-<text x="1245.0" y="1862.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">   capatul de sud al holului de sus. Tot pe interior.</text>
-<text x="1245.0" y="1892.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">Deasupra lui CAM. J stau baile, sauna si sala: hidroizolatie</text>
-<text x="1245.0" y="1922.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">   si scurgeri de prevazut in placa.</text>
+<text x="1245.0" y="1742.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">B  Fasia de acces trece 2,4 m pe sub bazin, unde raman 40 cm.</text>
+<text x="1245.0" y="1772.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">   Bazinul se muta spre vest, la 10,3-16,3, si fasia ramane</text>
+<text x="1245.0" y="1802.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">   libera pe toata latimea.</text>
+<text x="1245.0" y="1832.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">C  CAM. J nu are acces. Intre ea si CAM. D e fasia de 1 m de</text>
+<text x="1245.0" y="1862.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">   sub hol, care nu e demisol. Daca CAM. J se prelungeste pana</text>
+<text x="1245.0" y="1892.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">   la x = 19, atinge CAM. D si primeste usa.</text>
+<text x="1245.0" y="1922.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">CAM. J are 25 m2. Biliardul singur cere ~24 m2 cu spatiu de tac,</text>
+<text x="1245.0" y="1952.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#d1600f" text-anchor="start">   iar ping-pongul inca ~15. Cele patru functii cerute nu incap.</text>
+<text x="1245.0" y="1982.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">Traseul de iarna: casa -> camera tehnica -> CAM. D -> scara -></text>
+<text x="1245.0" y="2012.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">   capatul de sud al holului de sus. Tot pe interior.</text>
+<text x="1245.0" y="2042.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">Deasupra lui CAM. J stau sauna si sala: hidroizolatie sub</text>
+<text x="1245.0" y="2072.8" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#33383f" text-anchor="start">   cabina de sauna si scurgerea ei de coborat in tavan fals.</text>
 </svg>
