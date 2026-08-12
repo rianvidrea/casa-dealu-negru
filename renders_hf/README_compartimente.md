@@ -113,17 +113,19 @@ usa camerei tehnice.
 
 | Zona | Dimensiuni | Suprafata |
 |---|---|---|
-| CAM. D — depozitare | 13,0 × 6,0 | 78,0 m² |
-| CAM. J — joacă: TV, biliard, ping-pong, fotbal de masă | 6,0 × 12,0 | 72,0 m² |
-| acces cu ușă de garaj la nord | 3,5 × 6,0 | 21,0 m² |
+| CAM. D — depozitare | 7,0 × 6,0 | 42,0 m² |
+| CAM. J — joacă, în L până la ușa de garaj | 72,0 + 23,4 | 95,4 m² |
 | scara | 4,0 × 1,1 | 4,4 m² |
 | clădirea existentă (adâncime estimată) | 13,0 × 6,9 | 89,7 m² |
 
-Demisol, fără zona de acces: **150,0 m²**. Parter: 186,0 m².
+Demisol: **137,4 m²**. Parter: 186,0 m².
 
-Zona roz nu e rampă de mașină: mașina nu intră, doar se descarcă la ușa de
-garaj de pe latura de nord. Traseul de iarnă merge casă → cameră tehnică →
-CAM. D → scară → capătul de sud al holului de sus, tot pe interior.
+CAM. D merge 3 m la stânga ușii roșii, deci are 7 m, și se oprește la est pe
+x = 19, acolo unde cade scara. CAM. J se întinde în L, cu brațul de nord ajuns
+până la ușa de garaj de pe fațada de nord. Casa rămâne la 13 m.
+
+Traseul de iarnă merge casă → cameră tehnică → CAM. D → scară → capătul de sud
+al holului de sus, tot pe interior.
 
 ## Ce iese la verificare
 
@@ -134,10 +136,10 @@ CAM. D → scară → capătul de sud al holului de sus, tot pe interior.
    care încap fix în cei 4 m măsurați. Deasupra lui CAM. D e doar terasa, iar
    deasupra lui CAM. J doar aripa, deci coborârea nu schimbă nimic la parter:
    e numai săpătură.
-2. **B — zona de acces se suprapune 2,4 m peste bazin.** Accesul e la
-   x 15,1–18,6, bazinul la 11,5–17,5. Sub bazin rămân circa 40 cm. Bazinul se
-   mută spre vest (10,3–16,3, și accesul rămâne cu 2,7 m curați) sau accesul se
-   mută spre est.
+2. **B — brațul lui CAM. J trece 2,4 m pe sub bazin.** Brațul e la x 15,1–19,
+   bazinul la 11,5–17,5. Sub bazin rămân circa 40 cm, iar acum acolo e cameră
+   de joacă, nu depozit — deci e mai grav decât înainte. Bazinul se mută spre
+   vest, la 10,3–16,3, și brațul rămâne liber pe toată lățimea.
 3. **Ușa de garaj e pe fațada de nord, la cota demisolului.** Terenul urcă spre
    nord, deci acolo cota naturală e la nivelul parterului — ușa ar fi îngropată
    2 m. Ori se face un decupaj în teren în fața ei, ori ușa e de fapt la cota
